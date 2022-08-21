@@ -1,0 +1,55 @@
+body {
+  background-color: rgb(52, 52, 52);
+  font-family: 'Days One', sans-serif !important;
+}
+
+.container {
+  max-width: 960px;
+  margin: 50px auto;
+  border: 5px solid rgb(118, 27, 197);
+  border-radius: 20px;
+  padding: 50px;
+  background-color: rgb(255, 255, 255);
+}
+
+.form-element {
+  margin-bottom: 20px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.result {
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.result-element {
+  display: flex;
+}
+
+.result-element > div {
+  margin-left: 50px;
+}
+
+
+.form-query {
+  width: 50%;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+  border: 3px solid rgb(118, 27, 197);
+  font-size: 20px;
+}
+
+.form-submit {
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: rgb(118, 27, 197);
+  color: rgb(255, 255, 255);
+}
